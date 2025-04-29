@@ -1,11 +1,8 @@
 import { Router } from 'express';
 import { requestController } from './requests.controller';
 import { validateJoi } from '../../middlewares/body-validation';
-import { createRequestSchema } from './schemas/create-request.schema';
-import { completeRequestSchema } from './schemas/complete-request.schema';
-import { cancelRequestSchema } from './schemas/cancel-request.schema';
 import { validateQuery } from '../../middlewares/query-validation';
-import { listRequestSchema } from './schemas/list-request.schema';
+import { createRequestSchema, completeRequestSchema, cancelRequestSchema, listRequestSchema } from './schemas';
 
 const router = Router();
 
