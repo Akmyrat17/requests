@@ -1,6 +1,12 @@
 # Request Management System
 
-This project is a **Request Management System** built with **Express.js** and **TypeScript**. It provides various endpoints for managing requests, including creation, cancellation, and solutions. The app uses **Prisma** for database management and **Joi** for input validation.
+## Key Features
+
+- **Beautiful Logging**: Every request made to the API is logged with meaningful details (method, status, URL, and response time), with colorized output for easy readability and debugging.
+- **Error Handling**: Comprehensive error handling is built in to ensure that any unexpected issues are caught, logged, and returned with helpful error messages for the users.
+- **Validation**: All incoming data (including request bodies and query parameters) is validated using **Joi**, ensuring that only correct and well-formed data reaches the server.
+
+This project is designed with **Prisma** for database management, making it easy to scale and manage data. Validation ensures that the API accepts only well-structured inputs, while logging helps with monitoring the system's behavior.
 
 ## Table of Contents
 
