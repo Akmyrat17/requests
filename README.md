@@ -7,7 +7,7 @@ This project is a **Request Management System** built with **Express.js** and **
 - [Prerequisites](#prerequisites)
 - [Setup & Installation](#setup--installation)
 - [Configuration](#configuration)
-- [Database Migrations](#running-database-migrations)
+- [Database Migrations](#database-migrations)
 - [Running the Project](#running-the-project)
   - [Development Mode](#development-mode-with-hot-reload)
   - [Production Mode](#production-mode)
